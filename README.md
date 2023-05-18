@@ -1,4 +1,18 @@
-# Doctor Application System
+<center>
+<h1> Doctor Application System </h1>
+</center>
+<center>
+<a href="Java url">
+    <img alt="Java" src="https://img.shields.io/badge/Java->=8-darkblue.svg" />
+</a>
+<a href="Maven url" >
+    <img alt="Maven" src="https://img.shields.io/badge/Maven-3.0.6-brightgreen.svg" />
+</a>
+   <a >
+    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-blue.svg">
+  </a>
+</center>
+
 The Doctor Application System is a web-based application built using Java and Spring Boot. It allows doctors to manage their patients and appointments effectively. This README provides an overview of the application and instructions for setting up and running the system.
 
 # Features
