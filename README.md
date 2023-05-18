@@ -57,17 +57,17 @@ spring.jpa.properties.hibernate.format_sql=true
 ```
 # Data Model
 
-*Authentication Token
+* Authentication Token
 tokenId : Long
 token : String
 tokenCreationDate : LocalDate
 
-*Doctor
+* Doctor
 doctorId : Long
 doctorName : String
 specialization : Enum
 
-*Patient
+* Patient
 patientId : Long
 patientFirstName : String
 patientLastName: String
@@ -87,10 +87,10 @@ patientContact : String
 # API Documentation
 The Doctor Application System provides a RESTful API for managing doctors, patients, and appointments. The API endpoints and their usages are documented below:
 
-*Appointment Controller
+* Appointment Controller
   PostMapping("/appointment")
 
-*Doctor Controller
+* Doctor Controller
   PostMapping("/doctor")
   GetMapping("{docId}/appointments")
  
